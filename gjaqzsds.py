@@ -72,6 +72,5 @@ if __name__ == "__main__":
         submit(name, True)
         time.sleep(2)
         submit(name, False)
-    print(log)
     send_wechat(log)
 
